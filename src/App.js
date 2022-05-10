@@ -17,9 +17,6 @@ import { P_signUp } from './Pages/P_signUp';
 import { P_viewPrev } from './Pages/P_viewPrev';
 import { Reception } from './Pages/Reception';
 
-
-
-
 function App() {
   return (
     <Router> 
@@ -30,7 +27,7 @@ function App() {
           <Route path="/h_dash" component={H_dash} exact />
           <Route path="/" component={Doc_login} exact />
           <Route path="/pharmacy" component={PharmaPage} exact />
-          <Route path="/pharmacy/signUp" component={P_signUp} exact />
+          <Route path="/register/farmacy" component={P_signUp} exact />
           <Route path="/p_dash" component={P_dash} exact />
           <Route path="/pharmacy/:id" component={P_viewPrev} exact />
           <Route path="/rec_dash" component={Reception} exact />
@@ -40,6 +37,7 @@ function App() {
           <Route path="/doc/PatientRecord/:id" component={PatientRecord} exact />
           <Route path="/doc/profile" component={DoctorProfile} exact />
           <Route path="/doc/recovery" component={Doc_recovery} exact />
+          
         </UserProvider>
       </Switch>
     </Router>

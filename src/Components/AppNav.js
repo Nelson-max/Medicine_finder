@@ -41,7 +41,7 @@ export const PharmacyLoginSignUpNav = () => {
     <div className="h_nav_bar">
       <h3>PHARMACY</h3> 
       <div>
-        <p onClick={() => history.push("/pharmacy/signUp")} className="Donot" >SIGN UP</p>
+        <p onClick={() => history.push("/register/farmacy")} className="Donot" >SIGN UP</p>
       </div>
     </div>
   );

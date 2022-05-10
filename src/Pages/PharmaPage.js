@@ -66,7 +66,7 @@ export const PharmaPage = () => {
           <input placeholder="Password" type="password" className="input" onChange={(e) => setState({ ...state, password: e.target.value })} />
           {loading ? <button className="button" >Loading....</button>
             : <button className="button" >Login</button>}
-          <p onClick={() => history.push("/pharmacy/signUp")} className="Donot" >Do not have account?</p>
+          <p onClick={() => history.push("/register/farmacy")} className="Donot" >Do not have account?</p>
         </form>
       </div>
     </div>

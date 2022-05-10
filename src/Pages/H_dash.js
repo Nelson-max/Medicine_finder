@@ -108,6 +108,7 @@ export const H_dash = () => {
                 <br></br>
                 <th>Role</th>
                 <br></br>
+                <th>Actions</th>
               </tr>
             </thead>
             <tbody>
@@ -121,6 +122,7 @@ export const H_dash = () => {
                       <br></br>
                       <td>{role}</td>
                       <br></br>
+                      <td><button>Edit</button><button>Delete</button> </td>
                     </tr>
                   );
                 })}
